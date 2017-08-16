@@ -10,7 +10,7 @@
 请通过vim练习：vim vimtutor\_cn.txt
 
 \===============================================================================
-## W e l c o m e   t o   t h e   V I M   T u t o r    -    Version 1.7      =
+## W e l c o m e   t o   t h e   V I M   T u t o r    -    Version 1.7      
 ## 欢迎使用VIM教程 1.7版
 \===============================================================================
 
@@ -53,7 +53,7 @@ VIM是一个强大的编辑器，它拥有大量的命令,不可能在本教程�
 ## 1.1课：移动光标
 
 ** To move the cursor, press the h,j,k,l keys as indicated. **
-**要移动光标，则按示意按下 h,j,k,l 键。**
+** 要移动光标，则按示意按下 h,j,k,l 键。 **
 \     ^
 \     k		    Hint:  The h key is at the left and moves left.
 \   < h	 l >		   The l key is at the right and moves right.
@@ -119,8 +119,8 @@ VIM是一个强大的编辑器，它拥有大量的命令,不可能在本教程�
 ##     1.3节：文本编辑之删除
 
 
-   ** Press  x  to delete the character under the cursor. **
-   ** 按下x键以删除光标所在的字符. **
+** Press  x  to delete the character under the cursor. **
+** 按下x键以删除光标所在的字符. **
 
 1. Move the cursor to the line below marked --->.
  移动光标到--->标记的行。
@@ -149,8 +149,8 @@ NOTE: As you go through this tutor, do not try to memorize, learn by usage.
 ##         1.4节：文本编辑之插入
 
 
-\    ** Press  i  to insert text. **
-\    ** 按下 i键 以插入文本 **
+** Press  i  to insert text. **
+** 按下 i键 以插入文本 **
 
 1. Move the cursor to the first line below marked --->.
  移动光标到--->标记的行。
@@ -179,8 +179,8 @@ NOTE: As you go through this tutor, do not try to memorize, learn by usage.
 ##        1.5节：文本编辑之追加
 
 
- \       ** Press  A  to append text. **
- \       ** 按下A键以追加文本 **
+ \ ** Press  A  to append text. **
+ \ ** 按下A键以追加文本 **
 
 1. Move the cursor to the first line below marked --->.
  It does not matter on what character the cursor is in that line.
@@ -209,8 +209,8 @@ NOTE: As you go through this tutor, do not try to memorize, learn by usage.
 ##        Lesson 1.6: EDITING A FILE
 ##        1.6节：编辑一个文件
 
-\        ** Use  :wq  to save a file and exit. **
-\        **  :wq  保存文件并退出。 **
+\ ** Use  :wq  to save a file and exit. **
+\ **  :wq  保存文件并退出。 **
 
 !! NOTE: Before executing any of the steps below, read this entire lesson!!
 !! 注：  执行以下步骤之前，请读完全节！！
@@ -280,8 +280,8 @@ Now continue with Lesson 2.
 ##        2.1节：删除命令
 
 
-\       ** Type  dw  to delete a word. **
-\       ** 键入 dw 以删除一个单词. **
+\ ** Type  dw  to delete a word. **
+\ ** 键入 dw 以删除一个单词. **
 
 1. Press  \<ESC>  to make sure you are in Normal mode.
  按下 \<ESC> 以确保你牌正常模式。
@@ -311,8 +311,8 @@ than  d  you typed something wrong; press  \<ESC>  and start over.
 ##          2.2节：其它的删除命令
 
 
-   ** Type  d$	to delete to the end of the line. **
-   ** 键入 d$ 以删除光标到行尾间处的字符。**
+** Type  d$	to delete to the end of the line. **
+** 键入 d$ 以删除光标到行尾间处的字符。**
 
 1. Press  \<ESC>  to make sure you are in Normal mode.
  按下 \<ESC> 以确保你处于正常模式。
@@ -452,8 +452,8 @@ d 	数字 对象
 ##            2.6节：行的操作
 
 
-\       ** Type  dd   to delete a whole line. **
-\        ** 键入 dd 以删除一整行.**
+** Type  dd   to delete a whole line. **
+** 键入 dd 以删除一整行.**
 
 Due to the frequency of whole line deletion, the designers of Vi decided
 it would be easier to simply type two d's to delete a line.
@@ -548,8 +548,8 @@ it would be easier to simply type two d's to delete a line.
 ##            3.1节：PUT命令
 
 
-\   ** Type	p  to put previously deleted text after the cursor. **
-\   **输入 p 以在光标处粘贴先前删除的文本.**
+\ ** Type	p  to put previously deleted text after the cursor. **
+\ ** 输入 p 以在光标处粘贴先前删除的文本. **
 
 1. Move the cursor to the first ---> line below.
  移动光标到以下以--->标记的行。
@@ -578,8 +578,8 @@ it would be easier to simply type two d's to delete a line.
 ##            3.2节：替换命令
 
 
-   ** Type  rx  to replace the character at the cursor with  x . **
-   ** 键入 rx 以替换光标处的字符 **
+** Type  rx  to replace the character at the cursor with  x . **
+** 键入 rx 以替换光标处的字符 **
 
 1. Move the cursor to the first line below marked --->.
   移动光标到以--->标记的行。
@@ -608,8 +608,8 @@ NOTE: Remember that you should be learning by doing, not memorization.
 ##            3.3:变更操作码
 
 
-   ** To change until the end of a word, type  ce . **
-   ** 要变更光标到词尾，键入：ce。 **
+** To change until the end of a word, type  ce . **
+** 要变更光标到词尾，键入：ce。 **
 
 1. Move the cursor to the first line below marked --->.
   移动光标到以--->标记的行。
@@ -639,8 +639,8 @@ Notice that  ce  deletes the word and places you in Insert mode.
 ##           3.4节：其它的c更改命令
 
 
- ** The change operator is used with the same motions as delete. **
- ** 同delete 命令一样，更改操作码也使用相同的对象。 **
+** The change operator is used with the same motions as delete. **
+** 同delete 命令一样，更改操作码也使用相同的对象。 **
 
 1. The change operator works in the same way as delete.  The format is:
 
@@ -966,8 +966,8 @@ NOTE:  Pressing  v  starts Visual selection.  You can move the cursor around
 ##       5.4节：恢复和合并文件
 
 
-   ** To insert the contents of a file, type  :r FILENAME  **
-   ** 要插入一个文件的内容键入：r FILENAME **
+** To insert the contents of a file, type  :r FILENAME  **
+** 要插入一个文件的内容键入：r FILENAME **
 
 1. Place the cursor just above this line.
 
@@ -1092,8 +1092,8 @@ NOTE:  a, i and A all go to the same Insert mode, the only difference is where
 ##       6.3节： 以别一种方式替换
 
 
-  ** Type a capital  R  to replace more than one character. **
-  ** 键入 大写 R 以替换 更多的字符而非一个。 **
+** Type a capital  R  to replace more than one character. **
+** 键入 大写 R 以替换 更多的字符而非一个。 **
 
 1. Move the cursor to the first line below marked --->.  Move the cursor to
  the beginning of the first  xxx .
@@ -1122,7 +1122,7 @@ NOTE:  Replace mode is like Insert mode, but every typed character deletes an
 ##           6.4: 复制粘贴文本
 
 
-  ** Use the  y  operator to copy text and  p  to paste it **
+** Use the  y  operator to copy text and  p  to paste it **
 ** 用y 操作码来复制文本，以 p 粘贴此文本.**
 
 1. Go to the line marked with ---> below and place the cursor after "a)".
@@ -1154,8 +1154,8 @@ NOTE: you can also use  y  as an operator;  yw  yanks one word.
 ##           6.5节：设置选项
 
 
-  ** Set an option so a search or substitute ignores case **
-  ** 设置搜索和替换时忽略大小写的选项 **
+** Set an option so a search or substitute ignores case **
+** 设置搜索和替换时忽略大小写的选项 **
 
 1. Search for 'ignore' by entering:   /ignore  \<ENTER>
  Repeat several times by pressing  n .
@@ -1228,8 +1228,8 @@ NOTE:  If you want to ignore case for just one search command, use  \c
 ##              7.1节：使用帮助
 
 
-\       ** Use the on-line help system **
-\       ** 使用在线帮助系统 **
+** Use the on-line help system **
+** 使用在线帮助系统 **
 
 Vim has a comprehensive on-line help system.  To get started, try one of
 these three:
@@ -1265,8 +1265,8 @@ You can find help on just about any subject, by giving an argument to the
 ##                7.2节：创建启动脚本
 
 
-\          ** Enable Vim features **
-\           ** 启用VIM特性 **
+** Enable Vim features **
+** 启用VIM特性 **
 Vim has many more features than Vi, but most of them are disabled by
 default.  To start using more features you have to create a "vimrc" file.
 VIM 拥有比vi更多的特性，但是大多数是被默认禁止的。要使用更多的
@@ -1297,8 +1297,8 @@ For more information type  :help vimrc-intro
 ##             Lesson 7.3: COMPLETION
 ##                7.3节：补齐
 
-\      ** Command line completion with CTRL-D and \<TAB> **
-\      ** 使用CTRL-D和\<TAB>使命令行补齐 **
+** Command line completion with CTRL-D and \<TAB> **
+** 使用CTRL-D和\<TAB>使命令行补齐 **
 
 1. Make sure Vim is not in compatible mode:  :set nocp
  确保VIM 处于非兼容模式： :set nocp 
@@ -1399,34 +1399,36 @@ E-mail: bware@mines.colorado.edu.
 Bram Moolenaar 为VIM对本教程作了修订。
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-下面是一些补充:
-\=====================================================
+## 下面是一些补充:
 CTRL+F：往下翻页
 CTRL+B：往上翻页
 
-行的拼接：
+CTRL+E: 往下滚动
+CTRL+Y: 往上滚动
+
+###行的拼接：
 在选择模式选中要拼接的行：ggvG
 输入：  :'\<,'\>j\<enter>
 注：普通的j用于拼接单行。
 
-列操作：
+###列操作：
 -选中全文的第一列
 -按gg跳至开头
 -按CTRL——V进入列选择状态:visula block
 -按G到末尾
 
-将每行的第一列变为大写
+###将每行的第一列变为大写
 -按U将选中内容变大写
 -按u将选中内容变小写
 -按~将大小翻转。
 
-列操作：在第行前加一个星号和空格：
+###列操作：在第行前加一个星号和空格：
 -选中第一列
 -按I进入插入状态
 -输入: `*\<space>\<ESC> `
 -选中前两列后按x，可时行列删除
 
-宏的录制：将所有偶数行后加入OK！
+###宏的录制：将所有偶数行后加入OK！
 -按gg进入第一行
 -按qm进入宏录制
 -按j$进入第二行尾
@@ -1435,7 +1437,7 @@ CTRL+B：往上翻页
 -按j到下一行
 -按q结束宏录制
 
-宏的播放：（接上面的步骤）
+###宏的播放：（接上面的步骤）
 单次播放：
 -按下@m,执行m寄存器中的宏
 -可以发现第4行中的尾已经加入了ok!
@@ -1443,7 +1445,7 @@ CTRL+B：往上翻页
 -按下100@m，这里重复播放100次宏。
 点号（重复上一次命令）：
 
-将第行尾加一个感叹号
+###将第行尾加一个感叹号
 -按ggA!以在第一行添加感叹号
 -按\<esc\>j以到下一行。
 -按.表示重复前一个操作，即在执行A!\<esc>以在行尾添加一个感叹号。
@@ -1452,8 +1454,8 @@ CTRL+B：往上翻页
 
 
 
-\========================.virc for beginners==================
-基本设置
+\========================.vimrc for beginners==================
+##基本设置
 set nocp	设置不兼容模式
 set ru		打开状态栏标尺
 set hls		搜索时高亮显示找到的文本
