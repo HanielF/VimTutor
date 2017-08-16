@@ -52,16 +52,19 @@ VIM是一个强大的编辑器，它拥有大量的命令,不可能在本教程�
 ## Lesson 1.1:  MOVING THE CURSOR
 ## 1.1课：移动光标
 
-** To move the cursor, press the h,j,k,l keys as indicated. **
-** 要移动光标，则按示意按下 h,j,k,l 键。 **
-\     ^
-\     k		    Hint:  The h key is at the left and moves left.
-\   < h	 l >		   The l key is at the right and moves right.
-\     j			   The j key looks like a down arrow.
-\     v
-**示意**：	左边的h键是往左移
-\       右边的l键是往右移
-\       j键是往下移
+ ** To move the cursor, press the h,j,k,l keys as indicated. **
+ ** 要移动光标，则按示意按下 h,j,k,l 键。 **
+```
+     ^
+     k		    Hint:  The h key is at the left and moves left.
+  < h l >		   The l key is at the right and moves right.
+     j			   The j key looks like a down arrow.
+     v
+```
+ ** 示意** :
+   左边的h键是往左移
+   右边的l键是往右移
+   j键是往下移
 1. Move the cursor around the screen until you are comfortable.
  在屏幕中移动光标到你觉得合适的地方。
 
@@ -119,8 +122,8 @@ VIM是一个强大的编辑器，它拥有大量的命令,不可能在本教程�
 ##     1.3节：文本编辑之删除
 
 
-** Press  x  to delete the character under the cursor. **
-** 按下x键以删除光标所在的字符. **
+ ** Press  x  to delete the character under the cursor. **
+ ** 按下x键以删除光标所在的字符. **
 
 1. Move the cursor to the line below marked --->.
  移动光标到--->标记的行。
@@ -149,8 +152,8 @@ NOTE: As you go through this tutor, do not try to memorize, learn by usage.
 ##         1.4节：文本编辑之插入
 
 
-** Press  i  to insert text. **
-** 按下 i键 以插入文本 **
+ ** Press  i  to insert text. **
+ ** 按下 i键 以插入文本 **
 
 1. Move the cursor to the first line below marked --->.
  移动光标到--->标记的行。
@@ -179,8 +182,8 @@ NOTE: As you go through this tutor, do not try to memorize, learn by usage.
 ##        1.5节：文本编辑之追加
 
 
- \ ** Press  A  to append text. **
- \ ** 按下A键以追加文本 **
+** Press  A  to append text. **
+** 按下A键以追加文本 **
 
 1. Move the cursor to the first line below marked --->.
  It does not matter on what character the cursor is in that line.
@@ -209,8 +212,8 @@ NOTE: As you go through this tutor, do not try to memorize, learn by usage.
 ##        Lesson 1.6: EDITING A FILE
 ##        1.6节：编辑一个文件
 
-\ ** Use  :wq  to save a file and exit. **
-\ **  :wq  保存文件并退出。 **
+** Use  :wq  to save a file and exit. **
+**  :wq  保存文件并退出。 **
 
 !! NOTE: Before executing any of the steps below, read this entire lesson!!
 !! 注：  执行以下步骤之前，请读完全节！！
@@ -339,7 +342,7 @@ than  d  you typed something wrong; press  \<ESC>  and start over.
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##         Lesson 2.3: ON OPERATORS AND MOTIONS
 ##         2.3节：关于操作码和对象
-\    （operator我理解为操作码，motions我理解为对象）
+   （operator我理解为操作码，motions我理解为对象）
 
 
 Many commands that change text are made from an operator and a motion.
@@ -383,7 +386,6 @@ gg -到文本首行。
 ##         Lesson 2.4: USING A COUNT FOR A MOTION
 ##         2.4节：对对象使用计数
 
-
 ** Typing a number before a motion repeats it that many times. **
 
 1. Move the cursor to the start of the line marked ---> below.
@@ -400,7 +402,7 @@ gg -到文本首行。
 
 6. Move on to Lesson 2.5.
 
-** 在对象前键入重复的次数.**
+** 在对象前键入重复的次数. **
 
 1. 移动光标到以下以--->标记的行。
 
@@ -422,7 +424,7 @@ gg -到文本首行。
 
 
 ** Typing a number with an operator repeats it that many times. **
-** 为操作码键入 一个数字，使之重复多次。**
+** 为操作码键入 一个数字，使之重复多次。 **
 
 In the combination of the delete operator and a motion mentioned above you
 insert a count before the motion to delete more:
@@ -453,7 +455,7 @@ d 	数字 对象
 
 
 ** Type  dd   to delete a whole line. **
-** 键入 dd 以删除一整行.**
+** 键入 dd 以删除一整行. **
 
 Due to the frequency of whole line deletion, the designers of Vi decided
 it would be easier to simply type two d's to delete a line.
@@ -483,7 +485,7 @@ it would be easier to simply type two d's to delete a line.
 
 
 ** Press  u	to undo the last commands,   U  to fix a whole line. **
-** 按下u 以恢复最后的命令，U 是修复一整行.**
+** 按下u 以恢复最后的命令，U 是修复一整行. **
 
 1. Move the cursor to the line below marked ---> and place it on the
  first error.
@@ -699,8 +701,8 @@ Now go on to the next lesson.
 ##        4.1节：光标定位和文件状态
 
 ** Type CTRL-G to show your location in the file and the file status.
- Type  G  to move to a line in the file. **
-** 键入 CTRL-G 以显示你在文件中的位置和状态. **
+ Type  G  to move to a line in the file.**
+** 键入 CTRL-G 以显示你在文件中的位置和状态.**
 键入G 以移动到文件行尾。
 
 NOTE: Read this entire lesson before executing any of the steps!!
@@ -736,8 +738,8 @@ NOTE:  You may see the cursor position in the lower right corner of the screen
 ##            4.2节：搜索命令
 
 
- ** Type  /  followed by a phrase to search for the phrase. **
- ** 按 /  并接一个要搜索的短语。 **
+** Type  /  followed by a phrase to search for the phrase.**
+** 按 /  并接一个要搜索的短语。**
 
 1. In Normal mode type the  /  character.  Notice that it and the cursor
  appear at the bottom of the screen as with the  :	command.
@@ -768,8 +770,8 @@ NOTE: When the search reaches the end of the file it will continue at the
 ##        4.3节：括号匹配搜索
 
 
-\      ** Type  %  to find a matching ),], or } . **
-\      ** 键入 % 以找到所匹配的),],or }. **
+**Type  %  to find a matching ),], or } .**
+**键入 % 以找到所匹配的),],or }.**
 
 1. Place the cursor on any (, [, or { in the line below marked --->.
   在以--->标记的行中，将光标定位到任一的(,[,{.
@@ -799,8 +801,8 @@ NOTE: This is very useful in debugging a program with unmatched parentheses!
 ##            4.4:替换命令
 
 
-** Type  :s/old/new/g  to substitute 'new' for 'old'. **
-** 键入   :s/old/new/g   以用’new'替换‘old’。 **
+**Type  :s/old/new/g  to substitute 'new' for 'old'.**
+**键入   :s/old/new/g   以用’new'替换‘old’。**
 
 1. Move the cursor to the line below marked --->.
   移动光标到以下以--->标记的行。
