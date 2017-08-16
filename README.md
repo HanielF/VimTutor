@@ -1,6 +1,6 @@
 # VimTutor
 
-[Vim on git][vim] | [Vim-galore][galore] | [Vim][vimorg] | [SpaceVim][SpaceVim] | [Hack SpaceVim][hackspvim]
+[VimTutor-note][note] | [Vim on git][vim] | [Vim-galore][galore] | [Vim][vimorg] | [SpaceVim][SpaceVim] | [Hack SpaceVim][hackspvim]
 
 感觉vimtutor是众多vim帮助文档中最好的入门教程，其中的每一个知识点都有相应
 的习题，可以让你在短时间内掌握基本的VIM操作。
@@ -1495,3 +1495,4 @@ endif
 [SpaceVim]: https://github.com/SpaceVim/SpaceVim.git 
 [hackspvim]: https://github.com/Gabirel/Hack-SpaceVim
 [galore]: https://github.com/mhinz/vim-galore
+[note]: Vimtutor.txt
