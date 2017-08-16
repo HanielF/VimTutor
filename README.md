@@ -1495,4 +1495,4 @@ endif
 [SpaceVim]: https://github.com/SpaceVim/SpaceVim.git 
 [hackspvim]: https://github.com/Gabirel/Hack-SpaceVim
 [galore]: https://github.com/mhinz/vim-galore
-[note]: Vimtutor.txt
+[note]: README_NOTE.md
