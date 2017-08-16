@@ -283,8 +283,8 @@ Now continue with Lesson 2.
 ##        2.1节：删除命令
 
 
-\ ** Type  dw  to delete a word. **
-\ ** 键入 dw 以删除一个单词. **
+**Type  dw  to delete a word.**
+**键入 dw 以删除一个单词.**
 
 1. Press  \<ESC>  to make sure you are in Normal mode.
  按下 \<ESC> 以确保你牌正常模式。
