@@ -1,13 +1,17 @@
+<div align="center">
 # VimTutor
+</div>
 
+<div align="center">
 [VimTutor-note][note] | [Vim on git][vim] | [Vim-galore][galore] | [Vim][vimorg] | [SpaceVim][SpaceVim] | [Hack SpaceVim][hackspvim]
+</div>
 
 感觉vimtutor是众多vim帮助文档中最好的入门教程，其中的每一个知识点都有相应<br />
 的习题，可以让你在短时间内掌握基本的VIM操作。
 
 想要入门vim的童鞋最好还是一边看文档，一边用vim自己尝试每个命令。
 
-请通过vim练习：vim vimtutor\_cn.txt
+请通过vim练习:vim vimtutor\_cn.txt
 
 \===============================================================================
 ## W e l c o m e   t o   t h e   V I M   T u t o r    -    Version 1.7      
@@ -31,10 +35,10 @@ ATTENTION:
 The commands in the lessons will modify the text.  Make a copy of this
 file to practise on (if you started "vimtutor" this is already a copy).<br /> 
 
-**注意**：
+**注意**:
 本课程中的命令会改变本文的内容，请创建一个副本来练习（如果你用命令“vimtutor"<br />
 开始，本文已经是自动生成的副本了）。<br /> 
-注：创建副本的命令为：
+注:创建副本的命令为:
 `vim -u NONE -c 'e $VIMRUNTIME/tutor/tutor' -c 'w! vimtutor_copy' -c 'q';ls -l`
 
  It is important to remember that this tutor is set up to teach by
@@ -50,7 +54,7 @@ file to practise on (if you started "vimtutor" this is already a copy).<br />
 居于屏幕中心。
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ## Lesson 1.1:  MOVING THE CURSOR
-## 1.1课：移动光标
+## 1.1课:移动光标
 
 **To move the cursor, press the h,j,k,l keys as indicated.**<br />
 **要移动光标，则按示意按下 h,j,k,l 键**
@@ -78,31 +82,31 @@ file to practise on (if you started "vimtutor" this is already a copy).<br />
 
 **NOTE**: If you are ever unsure about something you typed, press <ESC> to place
   you in Normal mode.  Then retype the command you wanted.<br />
-**注意**：如意你不确定你按下了什么，按<ESC>回到正常模式。再按你想要输入的命令。
+**注意**:如意你不确定你按下了什么，按<ESC>回到正常模式。再按你想要输入的命令。
 
 **NOTE**: The cursor keys should also work.  But using hjkl you will be able to
   move around much faster, once you get used to it.  Really!<br />
-**注意**：光标键同样生效。但hjkl键会使你移动得更快，只要你熟悉了它。真的！
+**注意**:光标键同样生效。但hjkl键会使你移动得更快，只要你熟悉了它。真的！
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ## Lesson 1.2: EXITING VIM
-## 1.2节：退出VIM 
+## 1.2节:退出VIM 
 
 !! **NOTE:** Before executing any of the steps below, read this entire lesson!!<br />
-!! **注**：执行以下步骤前，请读完全节！！
+!! **注**:执行以下步骤前，请读完全节！！
 
 1. Press the <ESC> key (to make sure you are in Normal mode).<br />
 按下<ESC>键（确保你处于正常模式）。
 
 2. Type:	:q! <ENTER>.
 This exits the editor, DISCARDING any changes you have made.<br />
-按：	:q! <ENTER>.
+按:	:q! <ENTER>.
 此命令使编辑器退出并放弃你作的作用改动。(即不保存对文本的编辑）
 
 3. When you see the shell prompt, type the command that got you into this
 tutor.  That would be:	vimtutor <ENTER><br />
-当你看见shell提示时，输入以下命令并进入本教程：vimtutor<ENTER>
-注：事实上你vimtutor是打开一个副本，你也可以打开你之前创建的副本：
+当你看见shell提示时，输入以下命令并进入本教程:vimtutor<ENTER>
+注:事实上你vimtutor是打开一个副本，你也可以打开你之前创建的副本:
     vim vimtutor_copy
 
 4. If you have these steps memorized and are confident, execute steps
@@ -111,7 +115,7 @@ tutor.  That would be:	vimtutor <ENTER><br />
 
 **NOTE**:  :q! <ENTER>  discards any changes you made.  In a few lessons you
 will learn how to save the changes to a file.<br />
-**注**：q!<enter> 会取消你对文本所作的任何改动。在新的一节你会学到保存文件的修改。
+**注**:q!<enter> 会取消你对文本所作的任何改动。在新的一节你会学到保存文件的修改。
 
 5. Move the cursor down to Lesson 1.3.<br />
 移动光标到1.3节。
@@ -119,7 +123,7 @@ will learn how to save the changes to a file.<br />
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##  Lesson 1.3: TEXT EDITING - DELETION
-##     1.3节：文本编辑之删除
+##     1.3节:文本编辑之删除
 
 
 **Press  x  to delete the character under the cursor.**
@@ -144,12 +148,12 @@ character to be deleted.<br />
 现在语句正确了吧，请移步1.4节。
 
 NOTE: As you go through this tutor, do not try to memorize, learn by usage.<br />
-注：浏览本教程时，不要试着去记，而是学习其用法。
+注:浏览本教程时，不要试着去记，而是学习其用法。
 
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##      Lesson 1.4: TEXT EDITING - INSERTION
-##         1.4节：文本编辑之插入
+##         1.4节:文本编辑之插入
 
 
 **Press  i  to insert text.**
@@ -179,7 +183,7 @@ Repeat steps 2 through 4 to correct the sentence.<br />
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##         Lesson 1.5: TEXT EDITING - APPENDING
-##        1.5节：文本编辑之追加
+##        1.5节:文本编辑之追加
 
 
 **Press  A  to append text.**
@@ -210,23 +214,23 @@ There is also some text missing here.
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##        Lesson 1.6: EDITING A FILE
-##        1.6节：编辑一个文件
+##        1.6节:编辑一个文件
 
 **Use  :wq  to save a file and exit.**
 **:wq  保存文件并退出**
 
 !! NOTE: Before executing any of the steps below, read this entire lesson!!<br />
-!! 注：  执行以下步骤之前，请读完全节！！
+!! 注:  执行以下步骤之前，请读完全节！！
 
 1. Exit this tutor as you did in lesson 1.2:  :q!
  Or, if you have access to another terminal, do the following there.<br />
- 像1.2节一样，退出本教程：  :q!
+ 像1.2节一样，退出本教程:  :q!
  或者，你也可以访问其它的终端，并执行以下几步。
 
 2. At the shell prompt type this command:  vim tutor <ENTER>
  'vim' is the command to start the Vim editor, 'tutor' is the name of the
  file you wish to edit.  Use a file that may be changed.<br />
- 在shell提示符下，键入此命令： vim tutor <enter>
+ 在shell提示符下，键入此命令: vim tutor <enter>
 'vim' 是要启动的vim编辑器，‘tutor'是编辑的文件名。该文件将被编辑修改。
 
 3. Insert and delete text as you learned in the previous lessons.<br />
@@ -253,34 +257,34 @@ h (left)	j (down)       k (up)	    l (right)<br />
 h (左移)	j (下移)       k (上移)	    l (右移)
 
 2. To start Vim from the shell prompt type:  vim FILENAME <ENTER><br />
-从sheel提示符启动VIM，请键入：vim FILENAME \<ENTER>
+从sheel提示符启动VIM，请键入:vim FILENAME \<ENTER>
 
 3. To exit Vim type:	  \<ESC>   :q!	 \<ENTER>  to trash all changes.
 OR type: \<ESC>  :wq	 \<ENTER>  to save the changes.<br />
 
-要退出VIM：  \<ESC>  :q! \<ENTER> 放弃所有修改。
-或者键入：  	   \<ESC>   :wq	 \<ENTER> 保存所有的修改。
+要退出VIM:  \<ESC>  :q! \<ENTER> 放弃所有修改。
+或者键入:  	   \<ESC>   :wq	 \<ENTER> 保存所有的修改。
 
 4. To delete the character at the cursor type:  x<br />
-删除光标处的一个字符：   x
+删除光标处的一个字符:   x
 
 5. To insert or append text type:
 i   type inserted text   \<ESC>		insert before the cursor
 A   type appended text   \<ESC>         append after the line<br />
-插入或者追加文本：
+插入或者追加文本:
 i   type inserted text   \<ESC>		插入文本
 A   type appended text   \<ESC>         追加文本
 
 NOTE: Pressing \<ESC> will place you in Normal mode or will cancel
 \     an unwanted and partially completed command.<br />
-注： 按下\<ESC> 会回到正常模式，或者取消示完成的命令。
+注: 按下\<ESC> 会回到正常模式，或者取消示完成的命令。
 
 Now continue with Lesson 2.<br />
 现在继续进行第2课。
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##        Lesson 2.1: DELETION COMMANDS
-##        2.1节：删除命令
+##        2.1节:删除命令
 
 
 **Type  dw  to delete a word.**<br />
@@ -301,7 +305,7 @@ Now continue with Lesson 2.<br />
 NOTE: The letter  d  will appear on the last line of the screen as you type
 it.  Vim is waiting for you to type  w .  If you see another character
 than  d  you typed something wrong; press  \<ESC>  and start over.<br />
-注：  当你键入d时，字d  会在屏幕最低处显示，此时VIM在等待你键入w。  当你错误的键入时，你会看见其它的字符而非d;按下 \<ESC> 重新开始。 
+注:  当你键入d时，字d  会在屏幕最低处显示，此时VIM在等待你键入w。  当你错误的键入时，你会看见其它的字符而非d;按下 \<ESC> 重新开始。 
 
 ---> There are a some words fun that don't belong paper in this sentence.
 
@@ -311,11 +315,11 @@ than  d  you typed something wrong; press  \<ESC>  and start over.<br />
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##          Lesson 2.2: MORE DELETION COMMANDS
-##          2.2节：其它的删除命令
+##          2.2节:其它的删除命令
 
 
-** Type  d$	to delete to the end of the line. **<br />
-** 键入 d$ 以删除光标到行尾间处的字符。**
+**Type  d$	to delete to the end of the line.**<br />
+**键入 d$ 以删除光标到行尾间处的字符**
 
 1. Press  \<ESC>  to make sure you are in Normal mode.<br />
 按下 \<ESC> 以确保你处于正常模式。
@@ -341,7 +345,7 @@ than  d  you typed something wrong; press  \<ESC>  and start over.<br />
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##         Lesson 2.3: ON OPERATORS AND MOTIONS
-##         2.3节：关于操作码和对象
+##         2.3节:关于操作码和对象
    （operator我理解为操作码，motions我理解为对象）
 
 
@@ -363,14 +367,14 @@ Thus typing  de  will delete from the cursor to the end of the word.
 
 NOTE:  Pressing just the motion while in Normal mode without an operator will
 move the cursor as specified.<br />
-许多修改文本的命令由两部分组成：操作码和对象。
-删除命令d的格式如下：
+许多修改文本的命令由两部分组成:操作码和对象。
+删除命令d的格式如下:
 
 d 对象
-其中：
+其中:
 d	-是操作码
-motlion -是操作码要操作的对象（译者：更确切地说应是范围吧?）(罗列在下方）
-关于对象的小清单：
+motlion -是操作码要操作的对象（译者:更确切地说应是范围吧?）(罗列在下方）
+关于对象的小清单:
 w -到下一个单词头，除开所在的第一个字符。
 e -到下一个单词尾，包括所在单词的最后一个字符。
 $- 到行尾，包括了最后一个字符。
@@ -380,11 +384,11 @@ G -到文本最后一行首
 gg -到文本首行。
 所以de会删除光标处到单词尾下的字符。
 
-注： 不带操作码按下对象键时，仅会按对象指定的方式 移动光标。
+注: 不带操作码按下对象键时，仅会按对象指定的方式 移动光标。
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##         Lesson 2.4: USING A COUNT FOR A MOTION
-##         2.4节：对对象使用计数
+##         2.4节:对对象使用计数
 
 **Typing a number before a motion repeats it that many times.**
 
@@ -420,11 +424,11 @@ gg -到文本首行。
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##         Lesson 2.5: USING A COUNT TO DELETE MORE
-##         2.5节：使用计数以删除得更多
+##         2.5节:使用计数以删除得更多
 
 
-** Typing a number with an operator repeats it that many times. **<br />
-** 为操作码键入 一个数字，使之重复多次。 **
+**Typing a number with an operator repeats it that many times.**<br />
+**为操作码键入 一个数字，使之重复多次.**
 
 In the combination of the delete operator and a motion mentioned above you
 insert a count before the motion to delete more:
@@ -451,7 +455,7 @@ UPPER CASE words with one command<br />
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##         Lesson 2.6: OPERATING ON LINES
-##            2.6节：行的操作
+##            2.6节:行的操作
 
 
 **Type  dd   to delete a whole line.**
@@ -481,11 +485,11 @@ it would be easier to simply type two d's to delete a line.<br />
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##         Lesson 2.7: THE UNDO COMMAND
-##           2.7节：恢复命令
+##           2.7节:恢复命令
 
 
-** Press  u	to undo the last commands,   U  to fix a whole line. **<br />
-** 按下u 以恢复最后的命令，U 是修复一整行. **
+**Press  u	to undo the last commands,   U  to fix a whole line.**<br />
+**按下u 以恢复最后的命令，U 是修复一整行.**
 
 1. Move the cursor to the line below marked ---> and place it on the
  first error.
@@ -517,14 +521,14 @@ it would be easier to simply type two d's to delete a line.<br />
 
 
 1. To delete from the cursor up to the next word type:    dw<br />
-删除光标到下一个单词：	dw
+删除光标到下一个单词:	dw
 2. To delete from the cursor to the end of a line type:    d$<br />
-删除光标到行尾：		d$
+删除光标到行尾:		d$
 3. To delete a whole line type:    dd<br />
-删除整行：			dd
+删除整行:			dd
 
 4. To repeat a motion prepend it with a number:   2w<br />
-预置数字以重复对象：	2w
+预置数字以重复对象:	2w
 5. The format for a change command is:
            operator   [number]   motion
 where:
@@ -532,22 +536,22 @@ operator - is what to do, such as  d  for delete
 [number] - is an optional count to repeat the motion
 motion   - moves over the text to operate on, such as  w (word),
       $ (to the end of line), etc<br />
-更改命令的格式：
+更改命令的格式:
 操作码 [数字]	对象
 
 6. To move to the start of the line use a zero:  0<br />
-用0移动到行首：	0
+用0移动到行首:	0
 
 7. To undo previous actions, type: 	       u  (lowercase u)
 To undo all the changes on a line, type:  U  (capital U)
 To undo the undo's, type:		       CTRL-<br />
-恢复之前的动作，键入：	u (小写）
-恢复对一行的所有改变，键入：U(大写）
-恢复恢复，键入：		CTRL-R
+恢复之前的动作，键入:	u (小写）
+恢复对一行的所有改变，键入:U(大写）
+恢复恢复，键入:		CTRL-R
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##         Lesson 3.1: THE PUT COMMAND
-##            3.1节：PUT命令
+##            3.1节:PUT命令
 
 
 **Type	p  to put previously deleted text after the cursor.**<br />
@@ -577,7 +581,7 @@ To undo the undo's, type:		       CTRL-<br />
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##           Lesson 3.2: THE REPLACE COMMAND
-##            3.2节：替换命令
+##            3.2节:替换命令
 
 
 **Type  rx  to replace the character at the cursor with  x .**<br />
@@ -602,7 +606,7 @@ To undo the undo's, type:		       CTRL-<br />
 现在移动到3.3节吧。
 
 NOTE: Remember that you should be learning by doing, not memorization.<br />
-注：记住你应该学会做而非记。
+注:记住你应该学会做而非记。
 
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -611,7 +615,7 @@ NOTE: Remember that you should be learning by doing, not memorization.<br />
 
 
 **To change until the end of a word, type  ce .**<br />
-**要变更光标到词尾，键入：ce**
+**要变更光标到词尾，键入:ce**
 
 1. Move the cursor to the first line below marked --->.<br />
 移动光标到以--->标记的行。
@@ -632,22 +636,22 @@ NOTE: Remember that you should be learning by doing, not memorization.<br />
 ---> This line has a few words that need changing using the change operator.
 
 Notice that  ce  deletes the word and places you in Insert mode.<br />
-注意，ce 是删除单词并定位到插入模式（译者：其实后面的e就是对象，而前面的 c是操作码）
+注意，ce 是删除单词并定位到插入模式（译者:其实后面的e就是对象，而前面的 c是操作码）
 
 
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##           Lesson 3.4: MORE CHANGES USING c
-##           3.4节：其它的c更改命令
+##           3.4节:其它的c更改命令
 
 
-** The change operator is used with the same motions as delete. **<br />
-** 同delete 命令一样，更改操作码也使用相同的对象。 **
+**The change operator is used with the same motions as delete.**<br />
+**同delete 命令一样，更改操作码也使用相同的对象。**
 
 1. The change operator works in the same way as delete.  The format is:
 
      c    [number]   motion<br />
-更改操作码的用法与删除操作码相同，格式为：
+更改操作码的用法与删除操作码相同，格式为:
      c    [number]   motion
 
 2. The motions are the same, such as   w (word) and  $ (end of line).<br />
@@ -666,7 +670,7 @@ Notice that  ce  deletes the word and places you in Insert mode.<br />
 ---> The end of this line needs to be corrected using the  c$  command.
 
 NOTE:  You can use the Backspace key to correct mistakes while typing.<br />
-注：	在键入时，你可以使用退格以删除错误。
+注:	在键入时，你可以使用退格以删除错误。
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##               Lesson 3 SUMMARY
 ##            第3课总结 
@@ -684,12 +688,12 @@ character you want to have there.<br />
 3. The change operator allows you to change from the cursor to where the
 motion takes you.  eg. Type  ce  to change from the cursor to the end of
 the word,  c$  to change to the end of a line.<br />
-更改操作码允许你更改从光标到对象定义处。例如：键入 ce 以更改光标到词尾，键入c$会更改光标到行尾。
+更改操作码允许你更改从光标到对象定义处。例如:键入 ce 以更改光标到词尾，键入c$会更改光标到行尾。
 
 4. The format for change is:
 
 c   [number]   motion<br />
-更改的格式：
+更改的格式:
 c   [number]   motion
 
 Now go on to the next lesson.<br />
@@ -698,7 +702,7 @@ Now go on to the next lesson.<br />
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##      Lesson 4.1: CURSOR LOCATION AND FILE STATUS
-##        4.1节：光标定位和文件状态
+##        4.1节:光标定位和文件状态
 
 **Type CTRL-G to show your location in the file and the file status.**
 **Type  G  to move to a line in the file.**<br />
@@ -706,7 +710,7 @@ Now go on to the next lesson.<br />
 **键入G 以移动到文件行尾。**
 
 NOTE: Read this entire lesson before executing any of the steps!!<br />
-注：执行任何一步前请读完本课。
+注:执行任何一步前请读完本课。
 
 1. Hold down the Ctrl key and press  g .  We call this CTRL-G.
 A message will appear at the bottom of the page with the filename and the
@@ -717,7 +721,7 @@ position in the file.  Remember the line number for Step 3.<br />
 
 NOTE:  You may see the cursor position in the lower right corner of the screen
 This happens when the 'ruler' option is set (see  :help 'ruler'  )<br />
-注：	你可能见到 处于屏幕右下角的光标
+注:	你可能见到 处于屏幕右下角的光标
 这发生在设置了‘ruler'选项时（见 :hlep 'ruler')
 
 2. Press  G  to move you to the bottom of the file.
@@ -735,15 +739,15 @@ return you to the line you were on when you first pressed CTRL-G.<br />
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##        Lesson 4.2: THE SEARCH COMMAND
-##            4.2节：搜索命令
+##            4.2节:搜索命令
 
 
-** Type  /  followed by a phrase to search for the phrase.**<br />
-** 按 /  并接一个要搜索的短语。**
+**Type  /  followed by a phrase to search for the phrase.**<br />
+**按 /  并接一个要搜索的短语**
 
 1. In Normal mode type the  /  character.  Notice that it and the cursor
 appear at the bottom of the screen as with the  :	command.<br />
-在正常模式，键入 / 字母。注意，像：命令一样，光标会出现在屏幕底
+在正常模式，键入 / 字母。注意，像:命令一样，光标会出现在屏幕底
 
 2. Now type 'errroor' <ENTER>.  This is the word you want to search for.<br />
 现在，键入 'errroor'<ENTER>.这是你想要搜索的单词。
@@ -763,15 +767,15 @@ pressing the letter o).  Repeat to go back further.  CTRL-I goes forward.<br />
 --->  "errroor" is not the way to spell error;  errroor is an error.
 NOTE: When the search reaches the end of the file it will continue at the
 start, unless the 'wrapscan' option has been reset.<br />
-注：	当搜索到达文件尾时，它会从文件头开始搜索，除非’wrapscan'选项被设置了。
+注:	当搜索到达文件尾时，它会从文件头开始搜索，除非’wrapscan'选项被设置了。
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##       Lesson 4.3: MATCHING PARENTHESES SEARCH
-##        4.3节：括号匹配搜索
+##        4.3节:括号匹配搜索
 
 
-**Type  %  to find a matching ),], or } .**<br />
-**键入 % 以找到所匹配的),],or }.**
+**Type \%  to find a matching ),], or } .**<br />
+**键入 \% 以找到所匹配的\),\],or \}.**
 
 1. Place the cursor on any (, [, or { in the line below marked --->.<br />
 在以--->标记的行中，将光标定位到任一的(,[,{.
@@ -792,7 +796,7 @@ start, unless the 'wrapscan' option has been reset.<br />
 
 
 NOTE: This is very useful in debugging a program with unmatched parentheses!<br />
-注：在高度程序的非匹配括号是这个是相当有用的。
+注:在高度程序的非匹配括号是这个是相当有用的。
 
 
 
@@ -824,7 +828,7 @@ of lines where the substitution is to be done.
 Type   :%s/old/new/g      to change every occurrence in the whole file.
 Type   :%s/old/new/gc     to find every occurrence in the whole file,
 with a prompt whether to substitute or not.<br />
-要更改两行间的所有的匹配字符串：
+要更改两行间的所有的匹配字符串:
 type   :#,#s/old/new/g    其中，#,#是要更改的行号的范围
 Type   :%s/old/new/g      更改全文件中的所有事件。
 Type   :%s/old/new/gc      更改全文件中的所有事件,并给出替换与否的提示。  
@@ -868,14 +872,14 @@ To ask for confirmation each time add 'c'		   :%s/old/new/gc<br />
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##    Lesson 5.1: HOW TO EXECUTE AN EXTERNAL COMMAND
-##        5.1节：怎样执行外部命令
+##        5.1节:怎样执行外部命令
 
 
 **Type  :!	followed by an external command to execute that command.**<br />
-**	按  :!  并加上要执行的外部命令。 **
+**按  :!  并加上要执行的外部命令。**
 1. Type the familiar command	:  to set the cursor at the bottom of the
 screen.  This allows you to enter a command-line command.<br />
-键入类似的命令： 使光标处于屏幕底。这允许你键入一个命令行。
+键入类似的命令: 使光标处于屏幕底。这允许你键入一个命令行。
 
 2. Now type the  !  (exclamation point) character.  This allows you to
 execute any external shell command.<br />
@@ -888,19 +892,19 @@ shell prompt.  Or use  :!dir  if ls doesn't work<br />
 就像你在一个shell提示符一样。或者 使用 :!dir （如果 ls不起作用的话）。
 
 NOTE:  It is possible to execute any external command this way, also with arguments.<br />
-注：	通过这种方式执行任何的外部命令是可能的，同样可以跟参数。
+注:	通过这种方式执行任何的外部命令是可能的，同样可以跟参数。
 
 NOTE:  All  :  commands must be finished by hitting <ENTER>
 From here on we will not always mention it.<br />
-注：	所有的 : 命令必须以敲击<enter>结束。
+注:	所有的 : 命令必须以敲击<enter>结束。
 从这里开始，我们不会问题提及这些问题。
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##          Lesson 5.2: MORE ON WRITING FILES
-##       5.2节：其它的写文件命令
+##       5.2节:其它的写文件命令
 
 **To save the changes made to the text, type  :w FILENAME.**<br />
-**要保存对文本作的改动，键入 ：w FILENAME.**
+**要保存对文本作的改动，键入 :w FILENAME.**
 
 1. Type  :!dir  or  :!ls  to get a listing of your directory.
 You already know you must hit <ENTER> after this.<br />
@@ -919,19 +923,19 @@ To verify this, type    :!dir  or  :!ls   again to see your directory<br />
 
 NOTE: If you were to exit Vim and start it again with  vim TEST , the file
 would be an exact copy of the tutor when you saved it.<br />
-注：如果你之前退出了VIM并以vim TEST再次启动了它,这个文件就会是你保存时的教
+注:如果你之前退出了VIM并以vim TEST再次启动了它,这个文件就会是你保存时的教
 程的副本。
 
 5. Now remove the file by typing (MS-DOS):    :!del TEST
 or (Unix):	:!rm TEST<br />
-现在键入以下命令删除这个文件：
+现在键入以下命令删除这个文件:
 (MS-DOS):    :!del TEST
 or (Unix):	:!rm TEST
 
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##        Lesson 5.3: SELECTING TEXT TO WRITE
-##       5.3节：选择要写的文本
+##       5.3节:选择要写的文本
 
 **To save part of the file, type  v  motion  :w FILENAME**<br />
 **要保存部分文件，键入 v 对象   :w FILENAME**
@@ -944,7 +948,7 @@ text is highlighted.<br />
 按 v 并移动 光标到 以下的第5项。注意这些文本会珵高亮。
 
 3. Press the  :  character.  At the bottom of the screen  :'<,'> will appear.<br />
-按  ：字符。在屏幕底会显示  :'<,'> will appear.
+按  :字符。在屏幕底会显示  :'<,'> will appear.
 
 4. Type  w TEST  , where TEST is a filename that does not exist yet.  Verify
 that you see  :'<,'\>w TEST  before you press Enter.<br />
@@ -959,27 +963,27 @@ vim 会把选定的行进文件TEST中,使用 :!dir or !ls 作检查。先别删
 NOTE:  Pressing  v  starts Visual selection.  You can move the cursor around
 to make the selection bigger or smaller.  Then you can use an operator
 to do something with the text.  For example,  d  deletes the text.<br />
-注： 按下v 开始选择选择。你可以将光标移动到其它地方以使选择的区变大或者 变小。
+注: 按下v 开始选择选择。你可以将光标移动到其它地方以使选择的区变大或者 变小。
 然后你可使用操作码对文本做一些事。比如，d 删除文件。
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##       Lesson 5.4: RETRIEVING AND MERGING FILES
-##       5.4节：恢复和合并文件
+##       5.4节:恢复和合并文件
 
 
-** To insert the contents of a file, type  :r FILENAME  **<br />
-** 要插入一个文件的内容键入：r FILENAME **
+**To insert the contents of a file, type  :r FILENAME**<br />
+**要插入一个文件的内容键入:r FILENAME**
 
 1. Place the cursor just above this line.
 
 NOTE:  After executing Step 2 you will see text from Lesson 5.3.  Then movek DOWN to see this lesson again.<br />
 只需将光标放到这一行。
-注：	执行第二步后你会看到5.3节的内容。然后下移并再次查看这节。
+注:	执行第二步后你会看到5.3节的内容。然后下移并再次查看这节。
 
 2. Now retrieve your TEST file using the command   :r TEST   where TEST is
 the name of the file you used.
 The file you retrieve is placed below the cursor line.<br />
-现在 恢复 你的TEST文件，使用命令 ：r TEST 其中，TEST 是你使用的文件。
+现在 恢复 你的TEST文件，使用命令 :r TEST 其中，TEST 是你使用的文件。
 你要恢复的文件将被放置在光标行下面。
 
 3. To verify that a file was retrieved, cursor back and notice that there
@@ -989,7 +993,7 @@ are now two copies of Lesson 5.3, the original and the file version.<br />
 NOTE:  You can also read the output of an external command.  For example,
 :r !ls  reads the output of the ls command and puts it below the
 cursor.<br />
-注：  你可能会阅读外部命令的输出。如 :r !ls 读入ls命令的输出并将其放置到
+注:  你可能会阅读外部命令的输出。如 :r !ls 读入ls命令的输出并将其放置到
 光标下。
 
 
@@ -1007,7 +1011,7 @@ Some useful examples are:
 
 :!command  执行外部命令
 
-一些有用的例子：
+一些有用的例子:
 (MS-DOS)	  (Unix)
 :!dir		   :!ls		   -  显示目录清单
 :!del FILENAME   :!rm FILENAME   -  移除 FILENAME文件。
@@ -1030,11 +1034,11 @@ cursor position.<br />
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##      Lesson 6.1: THE OPEN COMMAND
-##          6.1节：OPEN 命令
+##          6.1节:OPEN 命令
 
 
-** Type  o  to open a line below the cursor and place you in Insert mode. **<br />
-** 键入 o 以在光标打开一行，并置于插入模式。 **
+**Type  o  to open a line below the cursor and place you in Insert mode.**<br />
+**键入 o 以在光标打开一行，并置于插入模式。**
 
 1. Move the cursor to the line below marked --->.<br />
 移动光标到以--->标记的行。
@@ -1061,8 +1065,8 @@ than a lowercase  o.  Try this on the line below.<br />
 ##       Lesson 6.2: THE APPEND COMMAND
 ##            6.2: 追加命令
 
-** Type  a  to insert text AFTER the cursor. **<br />
-** 键入 a 以在光标后插入文本。 **
+**Type  a  to insert text AFTER the cursor. **<br />
+**键入 a 以在光标后插入文本。**
 
 1. Move the cursor to the start of the line below marked --->.<br />
 移动 下面以--->标记的行首。
@@ -1085,15 +1089,15 @@ mode.<br />
 
 NOTE:  a, i and A all go to the same Insert mode, the only difference is where
 the characters are inserted.<br />
-注：  a,i 和A  都会进入插入模式，仅有的不同是字符在哪里插入。
+注:  a,i 和A  都会进入插入模式，仅有的不同是字符在哪里插入。
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##        Lesson 6.3: ANOTHER WAY TO REPLACE
-##       6.3节： 以别一种方式替换
+##       6.3节: 以别一种方式替换
 
 
-** Type a capital  R  to replace more than one character. **<br />
-** 键入 大写 R 以替换 更多的字符而非一个。 **
+**Type a capital  R  to replace more than one character.**<br />
+**键入 大写 R 以替换 更多的字符而非一个。**
 
 1. Move the cursor to the first line below marked --->.  Move the cursor to
 the beginning of the first  xxx .<br />
@@ -1115,15 +1119,15 @@ remains unmodified.<br />
 
 NOTE:  Replace mode is like Insert mode, but every typed character deletes an
 existing character.<br />
-注：  替换模式下类似于插入模式，但是键入字符会删除已经存在的字符。
+注:  替换模式下类似于插入模式，但是键入字符会删除已经存在的字符。
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##        Lesson 6.4: COPY AND PASTE TEXT
 ##           6.4: 复制粘贴文本
 
 
-** Use the  y  operator to copy text and  p  to paste it **<br />
-** 用y 操作码来复制文本，以 p 粘贴此文本.**
+**Use the  y  operator to copy text and  p  to paste it**<br />
+**用y 操作码来复制文本，以 p 粘贴此文本.**
 
 1. Go to the line marked with ---> below and place the cursor after "a)"<br />
 移动到以--->标记的行并定位到“a）”后。
@@ -1135,10 +1139,10 @@ existing character.<br />
 按 y 以复制高亮的文本。
 
 4. Move the cursor to the end of the next line:  j$<br />
-移动 光标到下一行的：j$
+移动 光标到下一行的:j$
 
 5. Type  p  to put (paste) the text.  Then type:  a second \<ESC> .<br />
-按p 以粘贴文本，然后键入：a second \<esc>.
+按p 以粘贴文本，然后键入:a second \<esc>.
 
 6. Use Visual mode to select " item.", yank it with  y , move to the end of
 the next line with  j$  and put the text there with  p .<br />
@@ -1148,22 +1152,22 @@ the next line with  j$  and put the text there with  p .<br />
 b)
 
 NOTE: you can also use  y  as an operator;  yw  yanks one word.<br />
-注： 你可能会使用y 作操作码;yw 复制一个单词。
+注: 你可能会使用y 作操作码;yw 复制一个单词。
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##           Lesson 6.5: SET OPTION
-##           6.5节：设置选项
+##           6.5节:设置选项
 
 
-** Set an option so a search or substitute ignores case **<br />
-** 设置搜索和替换时忽略大小写的选项 **
+**Set an option so a search or substitute ignores case**<br />
+**设置搜索和替换时忽略大小写的选项**
 
 1. Search for 'ignore' by entering:   /ignore  \<ENTER>
 Repeat several times by pressing  n .<br />
-搜索’ignore‘ ，键入 ： /ignore \<enter>
+搜索’ignore‘ ，键入 : /ignore \<enter>
 重复按n几次。
 
 2. Set the 'ic' (Ignore case) option by entering:   :set ic<br />
-设置 ’ic‘（忽略大小写）选项，键入： ：set ic
+设置 ’ic‘（忽略大小写）选项，键入: :set ic
 
 3. Now search for 'ignore' again by pressing  n
 Notice that Ignore and IGNORE are now also found.<br />
@@ -1174,16 +1178,16 @@ Notice that Ignore and IGNORE are now also found.<br />
 设置选项'hlsearch' and 'incsearch': set hls is
 
 5. Now type the search command again and see what happens:  /ignore \<ENTER><br />
-同在键入搜索命令，看看发生 了什么： /ignore \<enter>
+同在键入搜索命令，看看发生 了什么: /ignore \<enter>
 
 6. To disable ignoring case enter:  :set noic<br />
-要禁止忽略大小写，键入：  :set noic 
+要禁止忽略大小写，键入:  :set noic 
 
 NOTE:  To remove the highlighting of matches enter:   :nohlsearch <br />
-注意： 要删除高亮匹配，键入： :nohlsearch
+注意: 要删除高亮匹配，键入: :nohlsearch
 NOTE:  If you want to ignore case for just one search command, use  \c
 in the phrase:  /ignore\c  \<ENTER><br />
-注： 如果 你只是想在某次搜索命令时忽略大小写，在短语后加上\c: /ignore\c \<enter>
+注: 如果 你只是想在某次搜索命令时忽略大小写，在短语后加上\c: /ignore\c \<enter>
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##               Lesson 6 SUMMARY
 ##                   第6课总结
@@ -1220,26 +1224,26 @@ You can either use the long or the short option name.<br />
 你可选用长的或者短的选项名。
 
 7. Prepend "no" to switch an option off:   :set noic<br />
-前置”no"以关闭选项： :set noic 
+前置”no"以关闭选项: :set noic 
 
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##           Lesson 7.1: GETTING HELP
-##              7.1节：使用帮助
+##              7.1节:使用帮助
 
 
-** Use the on-line help system **<br />
-** 使用在线帮助系统 **
+**Use the on-line help system**<br />
+**使用在线帮助系统**
 
 Vim has a comprehensive on-line help system.  To get started, try one of
 these three:
 - press the \<HELP> key (if you have one)
 - press the \<F1> key (if you have one)
 - type   :help \<ENTER><br />
-vim 有一个广泛的在线帮助系统。要启用之，可试试这三种之一：
+vim 有一个广泛的在线帮助系统。要启用之，可试试这三种之一:
 - 按 \<help> (如果你有）
 - 按 \<F1> (如果你有）
-- 按 ：help \<enter>
+- 按 :help \<enter>
 
 Read the text in the help window to find out how the help works.
 Type  CTRL-W CTRL-W   to jump from one window to another.
@@ -1262,11 +1266,11 @@ You can find help on just about any subject, by giving an argument to the
 :help user-manual
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##          Lesson 7.2: CREATE A STARTUP SCRIPT
-##                7.2节：创建启动脚本
+##                7.2节:创建启动脚本
 
 
 **Enable Vim features**<br />
-**启用VIM特性**
+**启用VIM特性**<br />
 Vim has many more features than Vi, but most of them are disabled by
 default.  To start using more features you have to create a "vimrc" file.<br />
 VIM 拥有比vi更多的特性，但是大多数是被默认禁止的。要使用更多的
@@ -1280,7 +1284,7 @@ VIM 拥有比vi更多的特性，但是大多数是被默认禁止的。要使�
 :e $VIM/\_vimrc		for MS-Windows
 2. Now read the example "vimrc" file contents:
 :r $VIMRUNTIME/vimrc\_example.vim<br />
-现在阅读下“vimrc”文件的例子：
+现在阅读下“vimrc”文件的例子:
 :r $VIMRUNTIME/vimrc\_example.vim
 
 3. Write the file with:保存文件
@@ -1291,62 +1295,62 @@ You can add all your preferred settings to this "vimrc" file.
 For more information type  :help vimrc-intro<br />
 下次，你启动VIM后，它会使语法高亮，你可以在“vimrc”中添加所有你喜欢的
 设置。
-更多信息请键入 ：help vimrc-intro 
+更多信息请键入 :help vimrc-intro 
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##             Lesson 7.3: COMPLETION
-##                7.3节：补齐
+##                7.3节:补齐
 
 ** Command line completion with CTRL-D and \<TAB> **<br />
 ** 使用CTRL-D和\<TAB>使命令行补齐 **
 
 1. Make sure Vim is not in compatible mode:  :set nocp<br />
-确保VIM 处于非兼容模式： :set nocp 
+确保VIM 处于非兼容模式: :set nocp 
 
 2. Look what files exist in the directory:  :!ls   or  :!dir<br />
-看看目录下有什么文件存在：  :!ls or :!dir 
+看看目录下有什么文件存在:  :!ls or :!dir 
 
 3. Type the start of a command:  :e<br />
-键入命令的开始部分： :e 
+键入命令的开始部分: :e 
 
 4. Press  CTRL-D  and Vim will show a list of commands that start with "e".<br />
 按 CTRL-D ，VIM会显示以“e”开头的清单。
 
 5. Press \<TAB>  and Vim will complete the command name to ":edit".<br />
-按下\<TAB>，VIM会以“：edit"补齐命令名。
+按下\<TAB>，VIM会以“:edit"补齐命令名。
 
 6. Now add a space and the start of an existing file name:  :edit FIL<br />
-现在 添加一个空格和己存的文件名头部：  :edit FIL
+现在 添加一个空格和己存的文件名头部:  :edit FIL
 
 7. Press \<TAB>.  Vim will complete the name (if it is unique)<br />
 按\<tab>，vim会完成余下的文件名（如果它是独有的话）。
 
 NOTE:  Completion works for many commands.  Just try pressing CTRL-D and
 \<TAB>.  It is especially useful for  :help .<br />
-注：补齐针对大多数命令有效，只需按CTRL-R和\<TAB>.特别是对 ：help 非常有用 。
+注:补齐针对大多数命令有效，只需按CTRL-R和\<TAB>.特别是对 :help 非常有用 。
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##               Lesson 7 SUMMARY
 ##                 第七课总结
 
 1. Type  :help  or press \<F1> or \<Help>  to open a help window.<br />
-键入 ：help 或 \<F1> 或\<help>以打开帮助窗口
+键入 :help 或 \<F1> 或\<help>以打开帮助窗口
 
 2. Type  :help cmd  to find help on  cmd .<br />
-键入 ：help cmd 以找出关于cmd的帮助 。
+键入 :help cmd 以找出关于cmd的帮助 。
 
 3. Type  CTRL-W CTRL-W  to jump to another window<br />
 键入 CTRL-W 以跳转到另一窗口。
 
 4. Type  :q  to close the help window<br />
-键入 ：q 以关闭帮助窗口。
+键入 :q 以关闭帮助窗口。
 
 5. Create a vimrc startup script to keep your preferred settings.<br />
 创建 vimrc 启动脚本以保存你喜欢的设置。
 
 6. When typing a  :  command, press CTRL-D to see possible completions.
 Press \<TAB> to use one completion.<br />
-当键入 ：command 时，按下CTRL-D 以查看可能的补齐。
+当键入 :command 时，按下CTRL-D 以查看可能的补齐。
 按\<tab>使用其中一个补齐。
 
 
@@ -1358,8 +1362,8 @@ the Vim editor, just enough to allow you to use the editor fairly easily.
 It is far from complete as Vim has many many more commands.  Read the user
 manual next: ":help user-manual".<br />
 本文总结了vim教程。它原本给出了VIM编辑器的简短的概要，只能足以让你很容易地
-使用编辑器。这远没有完成，因为VIM在如此众多的命令。请阅读下面的用户手册：
-：help user-manual
+使用编辑器。这远没有完成，因为VIM在如此众多的命令。请阅读下面的用户手册:
+:help user-manual
 
 For further reading and studying, this book is recommended:
 Vim - Vi Improved - by Steve Oualline
@@ -1368,9 +1372,9 @@ The first book completely dedicated to Vim.  Especially useful for beginners.
 There are many examples and pictures.
 See http://iccf-holland.org/click5.html<br />
 
-要进一步的阅读和学习，我们推荐这本书：
+要进一步的阅读和学习，我们推荐这本书:
 Vim - Vi Improved -作者Steve Oualline
-出版社：New Riders
+出版社:New Riders
 第一本书专门针对 Vim. 特别适合 新手.
 其中有许多实例和图示。
 See http://iccf-holland.org/click5.html
@@ -1382,7 +1386,7 @@ Publisher: O'Reilly & Associates Inc.
 It is a good book to get to know almost anything you want to do with Vi.
 The sixth edition also includes information on Vim.<br />
 
-这本书比较老并且主要内容是VI而非vim，但是仍值得推荐：
+这本书比较老并且主要内容是VI而非vim，但是仍值得推荐:
 Learning the Vi Editor - by Linda Lamb
 出版社: O'Reilly & Associates Inc.
 它是一本能告诉你你想利用VI做的几乎所有事情的好书。
@@ -1400,93 +1404,98 @@ Bram Moolenaar 为VIM对本教程作了修订。
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ## 下面是一些补充:
-CTRL+F：往下翻页
-CTRL+B：往上翻页
+CTRL+F:往下翻页<br />
+CTRL+B:往上翻页<br />
 
-CTRL+E: 往下滚动
-CTRL+Y: 往上滚动
+CTRL+E: 往下滚动<br />
+CTRL+Y: 往上滚动<br />
 
-### 行的拼接：
-在选择模式选中要拼接的行：ggvG
-输入：  :'\<,'\>j\<enter>
-注：普通的j用于拼接单行。
+### 行的拼接:
+在选择模式选中要拼接的行:ggvG <br />
+输入:  :'\<,'\>j\<enter> <br />
+注:普通的j用于拼接单行。<br />
 
-### 列操作：
--选中全文的第一列
--按gg跳至开头
--按CTRL——V进入列选择状态:visula block
--按G到末尾
+### 列操作:
+-选中全文的第一列<br />
+-按gg跳至开头<br />
+-按CTRL——V进入列选择状态:visula block<br />
+-按G到末尾<br />
 
 ### 将每行的第一列变为大写
--按U将选中内容变大写
--按u将选中内容变小写
--按~将大小翻转。
+-按U将选中内容变大写<br />
+-按u将选中内容变小写<br />
+-按~将大小翻转。<br />
 
-### 列操作：在第行前加一个星号和空格：
--选中第一列
--按I进入插入状态
--输入: `*\<space>\<ESC> `
--选中前两列后按x，可时行列删除
+### 列操作:在第行前加一个星号和空格:
+-选中第一列<br />
+-按I进入插入状态<br />
+-输入:
+```
+    *<space><ESC>
+```
+-选中前两列后按x，可时行列删除<br />
 
-### 宏的录制：将所有偶数行后加入OK！
--按gg进入第一行
--按qm进入宏录制
--按j$进入第二行尾
--按aok!以输入ok!
--按\<esc>返回
--按j到下一行
--按q结束宏录制
+### 宏的录制:将所有偶数行后加入OK！
+-按gg进入第一行<br />
+-按qm进入宏录制<br />
+-按j$进入第二行尾<br />
+-按aok!以输入ok!<br />
+-按\<esc>返回<br />
+-按j到下一行<br />
+-按q结束宏录制<br />
 
-### 宏的播放：（接上面的步骤）
-单次播放：
--按下@m,执行m寄存器中的宏
--可以发现第4行中的尾已经加入了ok!
-多次播放：
--按下100@m，这里重复播放100次宏。
-点号（重复上一次命令）：
+### 宏的播放:（接上面的步骤）
+单次播放:<br />
+-按下@m,执行m寄存器中的宏<br />
+-可以发现第4行中的尾已经加入了ok!<br />
+多次播放:<br />
+-按下100@m，这里重复播放100次宏。<br />
+点号（重复上一次命令）:<br />
 
 ### 将第行尾加一个感叹号
--按ggA!以在第一行添加感叹号
--按\<esc\>j以到下一行。
--按.表示重复前一个操作，即在执行A!\<esc>以在行尾添加一个感叹号。
--反复按j.j.j.j.j.
-:%s/$/!/g
+-按ggA!以在第一行添加感叹号<br />
+-按\<esc\>j以到下一行。<br />
+-按.表示重复前一个操作，即在执行A!\<esc>以在行尾添加一个感叹号。<br />
+-反复按j.j.j.j.j.<br />
+:%s/$/!/g<br />
 
 
 
 \========================.vimrc for beginners==================
 ## 基本设置
-set nocp	设置不兼容模式
-set ru		打开状态栏标尺
-set hls		搜索时高亮显示找到的文本
-set is		递进搜索
-syntax on	打开关键字上色
-set backspace=indent,eol,start
-set whichrap=b,s,\<,>,[,]
-\    h,l,~
-set sw=4	缩进尺寸4个空格
-set ts=4	Tab宽度为4个字符
-set et		将所有的TAB替换为空格
-C/C++编码设置
-set cin		自动缩进
-set ai		还是自动缩进
-set cino=:0g0t0(sus
-set sm		显示括号匹配
-在console下粘贴版式的问题
-:set paste
-:set nopaste
-=		命令重调格式
-断行设置
-set lbr		不在单词中间断行
-图形界面与字符界面分别设置
-if (has("gui\_running"))	图形界面设置
-set nowrap	不拆行
-set guioptions+=b	水平流动条
-colo torte	配色方案
-else			字符界面设置
-set wrap	拆行
-colo ron	配色方案
-endif
+set nocp	设置不兼容模式<br />
+set ru		打开状态栏标尺<br />
+set hls		搜索时高亮显示找到的文本<br />
+set is		递进搜索<br />
+syntax on	打开关键字上色<br />
+set backspace=indent,eol,start<br />
+set whichrap=b,s,\<,>,[,]<br />
+\    h,l,~<br />
+set sw=4	缩进尺寸4个空格<br />
+set ts=4	Tab宽度为4个字符<br />
+set et		将所有的TAB替换为空格<br />
+C/C++编码设置<br />
+set cin		自动缩进<br />
+set ai		还是自动缩进<br />
+set cino=:0g0t0(sus<br />
+set sm		显示括号匹配<br />
+在console下粘贴版式的问题<br />
+:set paste<br />
+:set nopaste<br />
+=		命令重调格式<br />
+断行设置<br />
+set lbr		不在单词中间断行<br />
+图形界面与字符界面分别设置<br />
+if (has("gui\_running"))	<br />
+图形界面设置<br />
+set nowrap	不拆行<br />
+set guioptions+=b	水平流动条<br />
+colo torte	配色方案<br />
+else			
+字符界面设置<br />
+set wrap	拆行<br />
+colo ron	配色方案<br />
+endif<br />
 
 
 
