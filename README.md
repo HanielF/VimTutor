@@ -7,7 +7,7 @@
 
 想要入门vim的童鞋最好还是一边看文档，一边用vim自己尝试每个命令。
 
-请通过vim练习:vim vimtutor\_cn.txt
+请通过vim练习:vim Vimtutor.txt
 
 \===============================================================================
 ## W e l c o m e   t o   t h e   V I M   T u t o r    -    Version 1.7      
@@ -122,7 +122,7 @@ will learn how to save the changes to a file.<br />
 ##     1.3节:文本编辑之删除
 
 
-**Press  x  to delete the character under the cursor.**
+**Press  x  to delete the character under the cursor.**<br />
 **按下x键以删除光标所在的字符.**
 
 1. Move the cursor to the line below marked --->.<br />
@@ -152,8 +152,8 @@ NOTE: As you go through this tutor, do not try to memorize, learn by usage.<br /
 ##         1.4节:文本编辑之插入
 
 
-**Press  i  to insert text.**
-**按下 i键 以插入文本**
+**Press  i  to insert text.**<br />
+**按下 i键 以插入文本**<br />
 
 1. Move the cursor to the first line below marked --->.<br />
 移动光标到--->标记的行。
@@ -182,7 +182,7 @@ Repeat steps 2 through 4 to correct the sentence.<br />
 ##        1.5节:文本编辑之追加
 
 
-**Press  A  to append text.**
+**Press  A  to append text.**<br />
 **按下A键以追加文本**
 
 1. Move the cursor to the first line below marked --->.
@@ -212,7 +212,7 @@ There is also some text missing here.
 ##        Lesson 1.6: EDITING A FILE
 ##        1.6节:编辑一个文件
 
-**Use  :wq  to save a file and exit.**
+**Use  :wq  to save a file and exit.**<br />
 **:wq  保存文件并退出**
 
 !! NOTE: Before executing any of the steps below, read this entire lesson!!<br />
@@ -402,7 +402,7 @@ gg -到文本首行。
 
 6. Move on to Lesson 2.5.<br />
 
-**在对象前键入重复的次数.**
+**在对象前键入重复的次数.**<br />
 
 1. 移动光标到以下以--->标记的行。
 
@@ -454,7 +454,7 @@ UPPER CASE words with one command<br />
 ##            2.6节:行的操作
 
 
-**Type  dd   to delete a whole line.**
+**Type  dd   to delete a whole line.**<br />
 **键入 dd 以删除一整行.**
 
 Due to the frequency of whole line deletion, the designers of Vi decided
@@ -818,16 +818,16 @@ globally in the line, change all occurrences of "thee" in the line.<br />
 ---> thee best time to see thee flowers is in thee spring.
 
 
-4. To change every occurrence of a character string between two lines,
-type   :#,#s/old/new/g    where #,# are the line numbers of the range
-of lines where the substitution is to be done.
-Type   :%s/old/new/g      to change every occurrence in the whole file.
-Type   :%s/old/new/gc     to find every occurrence in the whole file,
+4. To change every occurrence of a character string between two lines,<br />
+type   :#,#s/old/new/g    where #,# are the line numbers of the range<br />
+of lines where the substitution is to be done.<br />
+Type   :%s/old/new/g      to change every occurrence in the whole file.<br />
+Type   :%s/old/new/gc     to find every occurrence in the whole file,<br />
 with a prompt whether to substitute or not.<br />
-要更改两行间的所有的匹配字符串:
-type   :#,#s/old/new/g    其中，#,#是要更改的行号的范围
-Type   :%s/old/new/g      更改全文件中的所有事件。
-Type   :%s/old/new/gc      更改全文件中的所有事件,并给出替换与否的提示。  
+要更改两行间的所有的匹配字符串:<br />
+type   :#,#s/old/new/g    其中，#,#是要更改的行号的范围<br />
+Type   :%s/old/new/g      更改全文件中的所有事件。<br />
+Type   :%s/old/new/gc      更改全文件中的所有事件,并给出替换与否的提示。  <br />
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##               Lesson 4 SUMMARY
 ##           第4课总结
@@ -841,30 +841,30 @@ G  移动到文件尾。
 数字   G  移动到某行。
 gg 移动到文件头。
 
-2. Typing  /	followed by a phrase searches FORWARD for the phrase.
-Typing  ?	followed by a phrase searches BACKWARD for the phrase.
-After a search type  n  to find the next occurrence in the same direction
-or  N  to search in the opposite direction.
+2. Typing  /	followed by a phrase searches FORWARD for the phrase.<br />
+Typing  ?	followed by a phrase searches BACKWARD for the phrase.<br />
+After a search type  n  to find the next occurrence in the same direction<br />
+or  N  to search in the opposite direction.<br />
 CTRL-O takes you back to older positions, CTRL-I to newer positions.<br />
 
-键入 / ,接上要向前搜索的短语。
-键入  ?  接上要向后搜索的短语
-搜索后，按n 以相同的方向搜索下一事件，按N以相反的方向搜索。
-CTRL-O 使你返回到以前的位置，CTRL-I 回到以后的位置 。
+键入 / ,接上要向前搜索的短语。<br />
+键入  ?  接上要向后搜索的短语<br />
+搜索后，按n 以相同的方向搜索下一事件，按N以相反的方向搜索。<br />
+CTRL-O 使你返回到以前的位置，CTRL-I 回到以后的位置 。<br />
 
 3. Typing  %	while the cursor is on a (,),[,],{, or } goes to its match.<br />
-键入 % 时括号上的光标会匹配自己的括号。
+键入 % 时括号上的光标会匹配自己的括号。<br />
 
-4. To substitute new for the first old in a line type    :s/old/new
-To substitute new for all 'old's on a line type	   :s/old/new/g
-To substitute phrases between two line #'s type	   :#,#s/old/new/g
-To substitute all occurrences in the file type	   :%s/old/new/g
+4. To substitute new for the first old in a line type    :s/old/new<br />
+To substitute new for all 'old's on a line type	   :s/old/new/g<br />
+To substitute phrases between two line #'s type	   :#,#s/old/new/g<br />
+To substitute all occurrences in the file type	   :%s/old/new/g<br />
 To ask for confirmation each time add 'c'		   :%s/old/new/gc<br />
-在一行中以new替换old.				:s/old/new
-在一行中以new替换所有的old				:s/old/new/g
-在#到#两行间，以new 替换所有的old			:#,#s/old/new/g
-替换文件中的所有事件				:%s/old/new/g
-每次替换前确认，增加‘c’'				:%s/old/new/gc
+在一行中以new替换old.				:s/old/new<br />
+在一行中以new替换所有的old				:s/old/new/g<br />
+在#到#两行间，以new 替换所有的old			:#,#s/old/new/g<br />
+替换文件中的所有事件				:%s/old/new/g<br />
+每次替换前确认，增加‘c’'				:%s/old/new/gc<br />
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##    Lesson 5.1: HOW TO EXECUTE AN EXTERNAL COMMAND
@@ -957,9 +957,9 @@ vim 会把选定的行进文件TEST中,使用 :!dir or !ls 作检查。先别删
 我们会下节使用它。
 
 NOTE:  Pressing  v  starts Visual selection.  You can move the cursor around
-to make the selection bigger or smaller.  Then you can use an operator
+to make the selection bigger or smaller.<br />  Then you can use an operator
 to do something with the text.  For example,  d  deletes the text.<br />
-注: 按下v 开始选择选择。你可以将光标移动到其它地方以使选择的区变大或者 变小。
+注: 按下v 开始选择选择。你可以将光标移动到其它地方以使选择的区变大或者 变小。<br />
 然后你可使用操作码对文本做一些事。比如，d 删除文件。
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1207,20 +1207,20 @@ y操作码 复制文本，p 粘贴此文本。
 5. Typing a capital  R  enters Replace mode until  \<ESC>  is pressed.<br />
 调入大写字母R，进入替换模式，直到\<esc>按下。
 
-6. Typing ":set xxx" sets the option "xxx".  Some options are:
-'ic' 'ignorecase'	ignore upper/lower case when searching
-'is' 'incsearch'	show partial matches for a search phrase
-'hls' 'hlsearch'	highlight all matching phrases
+6. Typing ":set xxx" sets the option "xxx".  Some options are:<br />
+'ic' 'ignorecase'	ignore upper/lower case when searching<br />
+'is' 'incsearch'	show partial matches for a search phrase<br />
+'hls' 'hlsearch'	highlight all matching phrases<br />
 You can either use the long or the short option name.<br />
 
-键入":set xxx" 以设置选项 "xxx".  一些选项:
-'ic' 'ignorecase'	搜索时忽略大小写
-'is' 'incsearch'	部分显示匹配的搜索短语。
-'hls' 'hlsearch'	高亮所有匹配的短语
-你可选用长的或者短的选项名。
+键入":set xxx" 以设置选项 "xxx".  一些选项:<br />
+'ic' 'ignorecase'	搜索时忽略大小写<br />
+'is' 'incsearch'	部分显示匹配的搜索短语。<br />
+'hls' 'hlsearch'	高亮所有匹配的短语<br />
+你可选用长的或者短的选项名。<br />
 
 7. Prepend "no" to switch an option off:   :set noic<br />
-前置”no"以关闭选项: :set noic 
+前置”no"以关闭选项: :set noic <br />
 
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
