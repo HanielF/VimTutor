@@ -101,7 +101,7 @@ This exits the editor, DISCARDING any changes you have made.
 
 3. When you see the shell prompt, type the command that got you into this
 tutor.  That would be:	vimtutor <ENTER>
-当你看见shell提示时，输入以下命令并进入本教程：vimtutor<ENTER>
+当你看见shell提示时，输入以下命令并进入本教程：vimtutor\<ENTER>
 注：事实上你vimtutor是打开一个副本，你也可以打开你之前创建的副本：
     vim vimtutor_copy
 
@@ -109,9 +109,9 @@ tutor.  That would be:	vimtutor <ENTER>
 1 through 3 to exit and re-enter the editor.
 如果你已经记住的这些步骤并有信心了，就执行步骤1-3退出，然后再进入编辑器。
 
-**NOTE**:  :q! <ENTER>  discards any changes you made.  In a few lessons you
+**NOTE**:  :q! \<ENTER>  discards any changes you made.  In a few lessons you
 will learn how to save the changes to a file.
-**注**：q!<enter> 会取消你对文本所作的任何改动。在新的一节你会学到保存文件的修改。
+**注**：q!\<enter> 会取消你对文本所作的任何改动。在新的一节你会学到保存文件的修改。
 
 5. Move the cursor down to Lesson 1.3.
 移动光标到1.3节。

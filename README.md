@@ -2,7 +2,7 @@
 
 [VimTutor-note][note] | [Vim on git][vim] | [Vim-galore][galore] | [Vim][vimorg] | [SpaceVim][SpaceVim] | [Hack SpaceVim][hackspvim]
 
-感觉vimtutor是众多vim帮助文档中最好的入门教程，其中的每一个知识点都有相应
+感觉vimtutor是众多vim帮助文档中最好的入门教程，其中的每一个知识点都有相应<br />
 的习题，可以让你在短时间内掌握基本的VIM操作。
 
 想要入门vim的童鞋最好还是一边看文档，一边用vim自己尝试每个命令。
@@ -19,21 +19,21 @@
  enough of the commands that you will be able to easily use Vim as
  an all-purpose editor.
 
-VIM是一个强大的编辑器，它拥有大量的命令,不可能在本教程中全部解释。但是，本
+VIM是一个强大的编辑器，它拥有大量的命令,不可能在本教程中全部解释。但是，本<br />
 教程描述了足够多的命令,使你能轻松将VIM作为通用编辑器。
 
-The approximate time required to complete the tutor is 25-30 minutes,
+The approximate time required to complete the tutor is 25-30 minutes,<br />
 depending upon how much time is spent with experimentation.
 
 完成本教程的时间大约是25-30分钟，主要依赖于你在实验中花去的时间。
 
- ATTENTION:
- The commands in the lessons will modify the text.  Make a copy of this
- file to practise on (if you started "vimtutor" this is already a copy).
+ATTENTION:
+The commands in the lessons will modify the text.  Make a copy of this
+file to practise on (if you started "vimtutor" this is already a copy).
 
 **注意**：
-本课程中的命令会改变本文的内容，请创建一个副本来练习（如果你用命令“vimtutor"
-开始，本文已经是自动生成的副本了）。
+本课程中的命令会改变本文的内容，请创建一个副本来练习（如果你用命令“vimtutor"<br />
+开始，本文已经是自动生成的副本了）。<br /> 
 注：创建副本的命令为：
 `vim -u NONE -c 'e $VIMRUNTIME/tutor/tutor' -c 'w! vimtutor_copy' -c 'q';ls -l`
 
@@ -1406,29 +1406,29 @@ CTRL+B：往上翻页
 CTRL+E: 往下滚动
 CTRL+Y: 往上滚动
 
-###行的拼接：
+### 行的拼接：
 在选择模式选中要拼接的行：ggvG
 输入：  :'\<,'\>j\<enter>
 注：普通的j用于拼接单行。
 
-###列操作：
+### 列操作：
 -选中全文的第一列
 -按gg跳至开头
 -按CTRL——V进入列选择状态:visula block
 -按G到末尾
 
-###将每行的第一列变为大写
+### 将每行的第一列变为大写
 -按U将选中内容变大写
 -按u将选中内容变小写
 -按~将大小翻转。
 
-###列操作：在第行前加一个星号和空格：
+### 列操作：在第行前加一个星号和空格：
 -选中第一列
 -按I进入插入状态
 -输入: `*\<space>\<ESC> `
 -选中前两列后按x，可时行列删除
 
-###宏的录制：将所有偶数行后加入OK！
+### 宏的录制：将所有偶数行后加入OK！
 -按gg进入第一行
 -按qm进入宏录制
 -按j$进入第二行尾
@@ -1437,7 +1437,7 @@ CTRL+Y: 往上滚动
 -按j到下一行
 -按q结束宏录制
 
-###宏的播放：（接上面的步骤）
+### 宏的播放：（接上面的步骤）
 单次播放：
 -按下@m,执行m寄存器中的宏
 -可以发现第4行中的尾已经加入了ok!
@@ -1445,7 +1445,7 @@ CTRL+Y: 往上滚动
 -按下100@m，这里重复播放100次宏。
 点号（重复上一次命令）：
 
-###将第行尾加一个感叹号
+### 将第行尾加一个感叹号
 -按ggA!以在第一行添加感叹号
 -按\<esc\>j以到下一行。
 -按.表示重复前一个操作，即在执行A!\<esc>以在行尾添加一个感叹号。
@@ -1455,7 +1455,7 @@ CTRL+Y: 往上滚动
 
 
 \========================.vimrc for beginners==================
-##基本设置
+## 基本设置
 set nocp	设置不兼容模式
 set ru		打开状态栏标尺
 set hls		搜索时高亮显示找到的文本
