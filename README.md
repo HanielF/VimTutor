@@ -1474,24 +1474,30 @@ set whichrap=b,s,\<,>,[,]<br />
 set sw=4	缩进尺寸4个空格<br />
 set ts=4	Tab宽度为4个字符<br />
 set et		将所有的TAB替换为空格<br />
+
 C/C++编码设置<br />
 set cin		自动缩进<br />
 set ai		还是自动缩进<br />
 set cino=:0g0t0(sus<br />
 set sm		显示括号匹配<br />
+
 在console下粘贴版式的问题<br />
 :set paste<br />
 :set nopaste<br />
 =		命令重调格式<br />
+
 断行设置<br />
 set lbr		不在单词中间断行<br />
+
 图形界面与字符界面分别设置<br />
 if (has("gui\_running"))	<br />
+
 图形界面设置<br />
 set nowrap	不拆行<br />
 set guioptions+=b	水平流动条<br />
 colo torte	配色方案<br />
 else			
+
 字符界面设置<br />
 set wrap	拆行<br />
 colo ron	配色方案<br />
