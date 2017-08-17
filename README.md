@@ -820,49 +820,49 @@ globally in the line, change all occurrences of "thee" in the line.<br />
 
 
 4. To change every occurrence of a character string between two lines,<br />
--type   :#,#s/old/new/g    where #,# are the line numbers of the range of lines where the substitution is to be done.<br />
--Type   :%s/old/new/g      to change every occurrence in the whole file.<br />
--Type   :%s/old/new/gc     to find every occurrence in the whole file,
+- type   :#,#s/old/new/g    where #,# are the line numbers of the range of lines where the substitution is to be done.<br />
+- Type   :%s/old/new/g      to change every occurrence in the whole file.<br />
+- Type   :%s/old/new/gc     to find every occurrence in the whole file,
 with a prompt whether to substitute or not.<br />
 
 要更改两行间的所有的匹配字符串:<br />
--type   :#,#s/old/new/g    其中，#,#是要更改的行号的范围<br />
--type   :%s/old/new/g      更改全文件中的所有事件。<br />
--Type   :%s/old/new/gc      更改全文件中的所有事件,并给出替换与否的提示。  <br />
+- type   :#,#s/old/new/g    其中，#,#是要更改的行号的范围<br />
+- type   :%s/old/new/g      更改全文件中的所有事件。<br />
+- Type   :%s/old/new/gc      更改全文件中的所有事件,并给出替换与否的提示。  <br />
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##               Lesson 4 SUMMARY
 ##           第4课总结
 
 1. CTRL-G  displays your location in the file and the file status.<br />
--G  moves to the end of the file.<br />
--number  G  moves to that line number.<br />
--gg  moves to the first line.<br />
+- G  moves to the end of the file.<br />
+- number  G  moves to that line number.<br />
+- gg  moves to the first line.<br />
 
--CTRL-G 显示 当前文件位置和状态。<br />
--G  移动到文件尾。<br />
--数字   G  移动到某行。<br />
--gg 移动到文件头。<br />
+- CTRL-G 显示 当前文件位置和状态。<br />
+- G  移动到文件尾。<br />
+- 数字   G  移动到某行。<br />
+- gg 移动到文件头。<br />
 
 2. Typing  /	followed by a phrase searches FORWARD for the phrase.<br />
--Typing  ?	followed by a phrase searches BACKWARD for the phrase.<br />
--After a search type  n  to find the next occurrence in the same direction<br />
--or  N  to search in the opposite direction.<br />
--CTRL-O takes you back to older positions, CTRL-I to newer positions.<br />
+- Typing  ?	followed by a phrase searches BACKWARD for the phrase.<br />
+- After a search type  n  to find the next occurrence in the same direction<br />
+- or  N  to search in the opposite direction.<br />
+- CTRL-O takes you back to older positions, CTRL-I to newer positions.<br />
 
--键入 / ,接上要向前搜索的短语。<br />
--键入  ?  接上要向后搜索的短语<br />
--搜索后，按n 以相同的方向搜索下一事件，按N以相反的方向搜索。<br />
--CTRL-O 使你返回到以前的位置，CTRL-I 回到以后的位置 。<br />
+- 键入 / ,接上要向前搜索的短语。<br />
+- 键入  ?  接上要向后搜索的短语<br />
+- 搜索后，按n 以相同的方向搜索下一事件，按N以相反的方向搜索。<br />
+- CTRL-O 使你返回到以前的位置，CTRL-I 回到以后的位置 。<br />
 
 3. Typing  %	while the cursor is on a (,),[,],{, or } goes to its match.<br />
 键入 % 时括号上的光标会匹配自己的括号。<br />
 
 4. To substitute new for the first old in a line type    :s/old/new<br />
--To substitute new for all 'old's on a line type	   :s/old/new/g<br />
--To substitute phrases between two line #'s type	   :#,#s/old/new/g<br />
--To substitute all occurrences in the file type	   :%s/old/new/g<br />
--To ask for confirmation each time add 'c'		   :%s/old/new/gc<br />
+- To substitute new for all 'old's on a line type	   :s/old/new/g<br />
+- To substitute phrases between two line #'s type	   :#,#s/old/new/g<br />
+- To substitute all occurrences in the file type	   :%s/old/new/g<br />
+- To ask for confirmation each time add 'c'		   :%s/old/new/gc<br />
 
 - 在一行中以new替换old.				:s/old/new<br />
 - 在一行中以new替换所有的old				:s/old/new/g<br />
