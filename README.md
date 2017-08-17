@@ -1,8 +1,8 @@
-<div align="center">
+<div textalign="center">
 # VimTutor
 </div>
 
-<div align="center">
+<div textalign="center">
 [VimTutor-note][note] | [Vim on git][vim] | [Vim-galore][galore] | [Vim][vimorg] | [SpaceVim][SpaceVim] | [Hack SpaceVim][hackspvim]
 </div>
 
