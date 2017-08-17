@@ -1,10 +1,6 @@
-<div textalign="center">
 # VimTutor
-</div>
 
-<div textalign="center">
 [VimTutor-note][note] | [Vim on git][vim] | [Vim-galore][galore] | [Vim][vimorg] | [SpaceVim][SpaceVim] | [Hack SpaceVim][hackspvim]
-</div>
 
 感觉vimtutor是众多vim帮助文档中最好的入门教程，其中的每一个知识点都有相应<br />
 的习题，可以让你在短时间内掌握基本的VIM操作。
