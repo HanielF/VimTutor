@@ -834,8 +834,7 @@ with a prompt whether to substitute or not.<br />
 ##               Lesson 4 SUMMARY
 ##           第4课总结
 
-1.
--CTRL-G  displays your location in the file and the file status.<br />
+1. CTRL-G  displays your location in the file and the file status.<br />
 -G  moves to the end of the file.<br />
 -number  G  moves to that line number.<br />
 -gg  moves to the first line.<br />
@@ -845,8 +844,7 @@ with a prompt whether to substitute or not.<br />
 -数字   G  移动到某行。<br />
 -gg 移动到文件头。<br />
 
-2.
--Typing  /	followed by a phrase searches FORWARD for the phrase.<br />
+2. Typing  /	followed by a phrase searches FORWARD for the phrase.<br />
 -Typing  ?	followed by a phrase searches BACKWARD for the phrase.<br />
 -After a search type  n  to find the next occurrence in the same direction<br />
 -or  N  to search in the opposite direction.<br />
@@ -861,16 +859,16 @@ with a prompt whether to substitute or not.<br />
 键入 % 时括号上的光标会匹配自己的括号。<br />
 
 4. To substitute new for the first old in a line type    :s/old/new<br />
-To substitute new for all 'old's on a line type	   :s/old/new/g<br />
-To substitute phrases between two line #'s type	   :#,#s/old/new/g<br />
-To substitute all occurrences in the file type	   :%s/old/new/g<br />
-To ask for confirmation each time add 'c'		   :%s/old/new/gc<br />
+-To substitute new for all 'old's on a line type	   :s/old/new/g<br />
+-To substitute phrases between two line #'s type	   :#,#s/old/new/g<br />
+-To substitute all occurrences in the file type	   :%s/old/new/g<br />
+-To ask for confirmation each time add 'c'		   :%s/old/new/gc<br />
 
- 在一行中以new替换old.				:s/old/new<br />
- 在一行中以new替换所有的old				:s/old/new/g<br />
- 在#到#两行间，以new 替换所有的old			:#,#s/old/new/g<br />
- 替换文件中的所有事件				:%s/old/new/g<br />
- 每次替换前确认，增加‘c’'				:%s/old/new/gc<br />
+- 在一行中以new替换old.				:s/old/new<br />
+- 在一行中以new替换所有的old				:s/old/new/g<br />
+- 在#到#两行间，以new 替换所有的old			:#,#s/old/new/g<br />
+- 替换文件中的所有事件				:%s/old/new/g<br />
+- 每次替换前确认，增加‘c’'				:%s/old/new/gc<br />
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##    Lesson 5.1: HOW TO EXECUTE AN EXTERNAL COMMAND
