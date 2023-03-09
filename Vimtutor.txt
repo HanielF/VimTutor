@@ -707,7 +707,7 @@ Now go on to the next lesson.
 NOTE:  You may see the cursor position in the lower right corner of the screen
        This happens when the 'ruler' option is set (see  :help 'ruler'  )
 注：	你可能见到 处于屏幕右下角的光标
-	这发生在设置了‘ruler'选项时（见 :hlep 'ruler')
+	这发生在设置了‘ruler'选项时（见 :help 'ruler')
 
   2. Press  G  to move you to the bottom of the file.
      Type  gg  to move you to the start of the file.
