@@ -254,7 +254,7 @@ h (left)	j (down)       k (up)	    l (right)<br />
 h (左移)	j (下移)       k (上移)	    l (右移)
 
 2. To start Vim from the shell prompt type:  vim FILENAME <ENTER><br />
-从sheel提示符启动VIM，请键入:vim FILENAME \<ENTER>
+从shell提示符启动VIM，请键入:vim FILENAME \<ENTER>
 
 3. To exit Vim type:	  \<ESC>   :q!	 \<ENTER>  to trash all changes.
 OR type: \<ESC>  :wq	 \<ENTER>  to save the changes.<br />
@@ -274,7 +274,7 @@ A   type appended text   \<ESC>         追加文本
 
 NOTE: Pressing \<ESC> will place you in Normal mode or will cancel
 \     an unwanted and partially completed command.<br />
-注: 按下\<ESC> 会回到正常模式，或者取消示完成的命令。
+注: 按下\<ESC> 会回到正常模式，或者取消未完成的命令。
 
 Now continue with Lesson 2.<br />
 现在继续进行第2课。
@@ -288,7 +288,7 @@ Now continue with Lesson 2.<br />
 **键入 dw 以删除一个单词.**
 
 1. Press  \<ESC>  to make sure you are in Normal mode.<br />
-按下 \<ESC> 以确保你牌正常模式。
+按下 \<ESC> 以确保你处于正常模式。
 
 2. Move the cursor to the line below marked --->.<br />
 移动光标到以下以--->标记的行。
@@ -719,7 +719,7 @@ position in the file.  Remember the line number for Step 3.<br />
 NOTE:  You may see the cursor position in the lower right corner of the screen
 This happens when the 'ruler' option is set (see  :help 'ruler'  )<br />
 注:	你可能见到 处于屏幕右下角的光标
-这发生在设置了‘ruler'选项时（见 :hlep 'ruler')
+这发生在设置了‘ruler'选项时（见 :help 'ruler')
 
 2. Press  G  to move you to the bottom of the file.
 Type  gg  to move you to the start of the file.<br />
