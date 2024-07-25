@@ -1327,7 +1327,7 @@ For more information type  :help vimrc-intro<br />
 
 NOTE:  Completion works for many commands.  Just try pressing CTRL-D and
 \<TAB>.  It is especially useful for  :help .<br />
-注:补齐针对大多数命令有效，只需按CTRL-R和\<TAB>.特别是对 :help 非常有用 。
+注:补齐针对大多数命令有效，只需按CTRL-D和\<TAB>.特别是对 :help 非常有用 。
 
 \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##               Lesson 7 SUMMARY
